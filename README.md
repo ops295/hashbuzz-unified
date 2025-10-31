@@ -60,7 +60,9 @@ HCS provides immutable engagement logging at $0.0001 per message, creating tampe
 [Ahmed certification](hackathon-files/Ahmed_certificate.pdf) | [Andrew certification](hackathon-files/Andrew_certificate.pdf) | [Shiela certification](hackathon-files/Shiela_certificate.pdf)
 
 **Pitch Deck Presentation:**
-[Presentation](hackathon-files/Ahmed_certificate.pdf)
+[Presentation PDF](hackathon-files/Ahmed_certificate.pdf)
+
+[Presentation Online](https://drive.google.com/file/d/1q_x-mTvZdb6Yeht4NYk8noWLwuS-2e4W/view?usp=sharing)
 
 **Video Demo:**
 [Youtube link](https://www.youtube.com/watch?v=WhHRjytDD_A)
