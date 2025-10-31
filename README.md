@@ -44,7 +44,7 @@ Explain how Hedera s low, predictable fees, high throughput, or ABFT finality di
 [Youtube link](https://www.youtube.com/watch?v=WhHRjytDD_A)
 
 **Smart Contract Audit:**
-[Report](hackathon-files/Ahmed_certificate.pdf)
+[Report](hackathon-files/REP-final-20241115T085933Z.pdf)
 
 ---
 > **⚡ 10-Minute Setup**: Get HashBuzz running locally in under 10 minutes with our [Quick Setup Guide](#-10-minute-quick-setup)
