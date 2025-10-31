@@ -19,7 +19,7 @@ Hashbuzz exists to make moments like that repeatable and fair. Promoters run on 
 ![alt text](hackathon-files/shared-value-bee.png)
 
 
-## Hedera Integration Summary 
+##  🔀 Hedera Integration Summary 
 A dedicated, concise paragraph for each Hedera service used, explaining the
 why (e.g., "We chose HCS for immutable logging of critical supply chain events because its
 predictable $0.0001 fee guarantees operational cost stability, which is essential for lowmargin logistics in Africa.").   
@@ -96,20 +96,19 @@ HashBuzz is a revolutionary social media campaign platform built on Hedera Hashg
 - **Features**: Campaign lifecycle, reward distribution, token management
 - **Security**: Multi-sig validation and emergency controls
 
-
-
+---
 ## � Complete Setup & Documentation
 
 ### 📖 Main Documentation
 
 | Document | Purpose | When to Use |
 |----------|---------|-------------|
-| **[📋 TECHNICAL_DOCUMENTATION.md](./TECHNICAL_DOCUMENTATION.md)** | Complete setup, architecture, and development guide | **Start here** for full platform setup | 
-|**[HEDERA_AND_HASHBUZZ.md](./HEDERA_AND_HASHBUZZ.md)**| A heigh level overview of commination between hashbuzz component and Hedera network | full platform setup|
-| **[🛠️ ENVIRONMENT_SETUP.md](./ENVIRONMENT_SETUP.md)** | Detailed environment variable configuration | When configuring API keys and credentials |
-| **[🚀 Frontend README](./frontend/README.md)** | Frontend-specific setup and development | Frontend development and customization |
-| **[⚙️ Backend README](./backend/ReadMe.md)** | Backend API documentation and architecture | Backend development and API integration |
-| **[⛓️ Smart Contracts README](./smart-contracts/README.md)** | Contract deployment and blockchain integration | Smart contract development and deployment |
+| **[TECHNICAL_DOCUMENTATION.md](./TECHNICAL_DOCUMENTATION.md)** | Complete setup, architecture, and development guide | **Start here** for full platform setup | 
+| **[HEDERA_AND_HASHBUZZ.md](./HEDERA_AND_HASHBUZZ.md)**| A heigh level overview of commination between hashbuzz component and Hedera network | full platform setup|
+| **[ENVIRONMENT_SETUP.md](./ENVIRONMENT_SETUP.md)** | Detailed environment variable configuration | When configuring API keys and credentials |
+| **[Frontend README](./frontend/README.md)** | Frontend-specific setup and development | Frontend development and customization |
+| **[Backend README](./backend/ReadMe.md)** | Backend API documentation and architecture | Backend development and API integration |
+| **[Smart Contracts README](./smart-contracts/README.md)** | Contract deployment and blockchain integration | Smart contract development and deployment |
 
 
 
@@ -125,14 +124,11 @@ HashBuzz is a revolutionary social media campaign platform built on Hedera Hashg
 │ • Wallet    │    │ • Database  │    │ • Tokens    │    │ • Ledger    │    │ • Queries   │
 │ • Auth      │    │ • Twitter   │    │ • Campaign  │    │ • HCS       │    │ • Analytics │
 └─────────────┘    └─────────────┘    └─────────────┘    └─────────────┘    └─────────────┘
-      │                     │                    │                    │                    │
-      ▼                     ▼                    ▼                    ▼                    ▼
-localhost:3000      localhost:4000        0.0.CONTRACT      testnet.hedera.com     testnet.mirrornode
+      │                   │                  │                  │                  │
+      ▼                   ▼                  ▼                  ▼                  ▼
+localhost:3000     localhost:4000     0.0.CONTRACT    testnet.hedera.com   testnet.mirrornode
 ```
 
-### Communication Flow
-
-![alt text](hackathon-files/hashbuzz-logo.png)
 
 ### 📁 Environment File Structure
 
@@ -146,4 +142,4 @@ cp backend/.env.example backend/.env      # Database, APIs, Hedera config
 
 ---
 
-**HashBuzz Team** - Building the future of social media marketing on Hedera Hashgraph
+**HashBuzz Team** - Building the future of decentralised marketing on Hedera Hashgraph
