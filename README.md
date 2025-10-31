@@ -20,17 +20,21 @@ Hashbuzz exists to make moments like that repeatable and fair. Promoters run on 
 
 
 ##  🔀 Hedera Integration Summary 
+
 **Problem statement:** In Africa, micro creators and everyday engagers cannot prove genuine contributions or get paid fairly. Bots, edits, and duplicate entries distort engagement. Closed platforms fragment spend and settlement, so payouts are slow, disputable, and opaque. Local languages and norms are underserved, raising friction and fraud. Brands then face the knock-on problem: they cannot independently verify real reach, audit campaign spend, or reward communities transparently at scale.
 
-Hedera Services Implementation in HashBuzz
+### Hedera Services Implementation in Hashbuzz
 
 **Hedera Token Service (HTS)**
 
-HashBuzz uses HTS for BUZZ token creation and management, choosing it over ERC-20 contracts for its fixed $0.001 transfer fee vs. variable gas fees ($10+) on Ethereum. This predictable pricing makes micro-rewards for African social media engagement economically viable.
+Hashbuzz uses HTS for BUZZ token creation and management, choosing it over ERC-20 contracts for its fixed $0.001 transfer fee vs. variable gas fees ($10+) on Ethereum. This predictable pricing makes micro-rewards for African social media engagement economically viable.
+
 **Transaction Types:** TokenCreateTransaction, TokenAssociateTransaction, TokenTransferTransaction, TokenMintTransaction, TokenBurnTransaction
+
 **Economic Justification:** Rewarding 10,000 participants costs $10 in fees vs. $100,000+ on Ethereum, enabling sustainable mass-adoption campaigns for African businesses with limited budgets.
 
 **Hedera Smart Contract Service (HSCS)**
+
 HSCS automates campaign lifecycle management with full Solidity compatibility at predictable fees ($0.02-0.05 per execution). Smart contracts handle escrow, milestone validation, and automated reward distribution at 10,000+ TPS.
 
 **Transaction Types:** ContractCreateTransaction, ContractExecuteTransaction, ContractCallQuery, ContractUpdateTransaction, ContractDeleteTransaction
