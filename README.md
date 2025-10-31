@@ -29,25 +29,25 @@ Hashbuzz exists to make moments like that repeatable and fair. Promoters run on 
 
 Hashbuzz uses HTS for BUZZ token creation and management, choosing it over ERC-20 contracts for its fixed $0.001 transfer fee vs. variable gas fees ($10+) on Ethereum. This predictable pricing makes micro-rewards for African social media engagement economically viable.
 
-**Transaction Types:** TokenCreateTransaction, TokenAssociateTransaction, TokenTransferTransaction, TokenMintTransaction, TokenBurnTransaction
+- **Transaction Types:** TokenCreateTransaction, TokenAssociateTransaction, TokenTransferTransaction, TokenMintTransaction, TokenBurnTransaction
 
-**Economic Justification:** Rewarding 10,000 participants costs $10 in fees vs. $100,000+ on Ethereum, enabling sustainable mass-adoption campaigns for African businesses with limited budgets.
+- **Economic Justification:** Rewarding 10,000 participants costs $10 in fees vs. $100,000+ on Ethereum, enabling sustainable mass-adoption campaigns for African businesses with limited budgets.
 
 **Hedera Smart Contract Service (HSCS)**
 
 HSCS automates campaign lifecycle management with full Solidity compatibility at predictable fees ($0.02-0.05 per execution). Smart contracts handle escrow, milestone validation, and automated reward distribution at 10,000+ TPS.
 
-**Transaction Types:** ContractCreateTransaction, ContractExecuteTransaction, ContractCallQuery, ContractUpdateTransaction, ContractDeleteTransaction
+- **Transaction Types:** ContractCreateTransaction, ContractExecuteTransaction, ContractCallQuery, ContractUpdateTransaction, ContractDeleteTransaction
 
-**Economic Justification:** Processing 1,000 reward distributions costs ~$50 vs. $5,000+ on Ethereum, making programmatic marketing accessible to African SMEs with $100-500 monthly budgets.
+- **Economic Justification:** Processing 1,000 reward distributions costs ~$50 vs. $5,000+ on Ethereum, making programmatic marketing accessible to African SMEs with $100-500 monthly budgets.
 
 **Hedera Consensus Service (HCS)**
 
 HCS provides immutable engagement logging at $0.0001 per message, creating tamper-proof records of Twitter interactions with consensus timestamps to prevent fraud.
 
-**Transaction Types:** TopicCreateTransaction, TopicMessageSubmitTransaction, TopicUpdateTransaction, TopicDeleteTransaction, TopicInfoQuery
+- **Transaction Types:** TopicCreateTransaction, TopicMessageSubmitTransaction, TopicUpdateTransaction, TopicDeleteTransaction, TopicInfoQuery
 
-**Economic Justification:** Logging 1 million engagements costs $100 vs. $10,000+ for Ethereum events, making transparent marketing verification affordable for African businesses.
+- **Economic Justification:** Logging 1 million engagements costs $100 vs. $10,000+ for Ethereum events, making transparent marketing verification affordable for African businesses.
 
 **ABFT Consensus Benefits**
 
